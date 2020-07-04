@@ -1,5 +1,8 @@
-
-
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
 
 /* .form{
     width: 70%;
@@ -20,6 +23,7 @@ img{
     border-color: none ;
 }
 
+/* Media queries */
 
 @media screen and (max-width: 468px){
     img{

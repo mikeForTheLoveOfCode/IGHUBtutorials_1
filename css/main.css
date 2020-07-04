@@ -1,0 +1,28 @@
+
+
+
+/* .form{
+    width: 70%;
+    margin: 10vh auto;
+} */
+img{
+    object-fit: contain;
+    width: 100%/9;
+    height: auto;
+}
+
+
+.form-control{
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus{
+    border-color: none ;
+}
+
+
+@media screen and (max-width: 468px){
+    img{
+        display: none;
+    }
+}
